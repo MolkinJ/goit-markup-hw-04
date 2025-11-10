@@ -145,8 +145,11 @@ section {
 }
 
 .hero {
-  background-color: var(--navy-blue);
+  background-image: radial-gradient(var(--grey)), url("/images/background.jpg");
+  background-position: center;
+  background-size: cover;
   padding: 188px 0;
+  max-width: 1440рх;
 }
 
 .hero .container {
